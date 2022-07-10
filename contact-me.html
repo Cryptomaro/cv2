@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>my contacts</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <ul>
+      <li>+2349056441803</li>
+      <li>Captedkid@gmail.com</li>
+      <li><a href="https://api.whatsapp.com/send?phone=2348146241421&text=Hi,%20from%20your%20website">whatsapp</a></li>
+    </ul>
+    <!-- form which will send a get request to the current url-->
+    <hr>
+    <form action="mailto:captedkid@gmail.com" method="post" enctype="text/plain">
+      <label for="text">Your Name:
+        <input type="text" name="name" autocomplete="name" required size="14">
+      </label><br>
+      <label for="email">Your email:
+        <input type="email" name="Email" required minlength="8" size="25">
+      </label><br>
+      <label for="text">Your Message:
+        <textarea name="Message" rows="8" cols="40" required></textarea>
+        <input type="submit" name="" value="Submit">
+
+      </label>
+    </form>
+
+  </body>
+</html>
